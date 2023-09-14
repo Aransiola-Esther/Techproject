@@ -2,17 +2,18 @@
 
    font-family: Arial, Helvetica, sans-serif;
    box-sizing: border-box;
-}
+} 
+
 .hero{
    min-height: 400px;
    margin-top: 0;
-   background-image: url(../images/hero2.jpg);
+   background-image: url(../images/pur.jpg);
    background-position: center;
    background-size: cover;
    position: relative;
 }
-.header-fixed{
-   position: fixed;
+.header-scroll{
+   
    top: 0;
    left: 0;
    right: 0;
@@ -20,15 +21,20 @@
    z-index: 999999;
 }
 .navbar{
-   background-color: #fff !important;
+  border-top-left-radius: solid rgba(27, 11, 85, 0.973) !important;
+   color:black;
+   border: solid rgba(48,11 , 85, 0.973);
 }.navbar-brand{
    font-weight:700;
-   color: #fd10ded0;
+   color: rgba(48, 11, 85, 0.973);;
 
 }.cta{
-   border: 2px solid #fd10ded0;
+   border: 2px solid #cf0983d0;
    border-radius: 4px;
    text-transform: uppercase;   
+}
+.navbar-nav a{
+   color: black;
 }
 .cta:hover{
    background-color: #fd10ded0;
@@ -42,8 +48,18 @@
    color: #fd10ded0;
 }
 .fonts{
-   font-size: 15px;
+   font-size: 20px;
 
+}
+.color{
+   color:#0e0147;
+   font-size: 15px;
+}
+.card{
+   
+   background-color: none;
+   
+   
 }
 .more{
    margin-top: 130px;
@@ -52,15 +68,32 @@
 .ore2{
    margin-bottom: 40px;
 }
-.tec{
-   background-color:#fa5fe52f;
-   border: #eee;
+.feedback{
+   border:solid #0e0147;
+   margin-top: 30px;
+   border-radius: 20px;
+   
+}
+.mt{
    margin-top: 30px;
 }
-.port{
-   border:none;
-   border: red;
-   
+.button{
+   background-color: rgba(27, 11, 85, 0.973);
+   color: #eee;
+
+}.fonts{
+   font-size: 20px;
+}
+.tag{
+   border-bottom:thick #0e0147;
+   border-radius: 300%;
+   width: 60%;
+   justify-content: center;
+}
+.circle{
+   border:solid #0e0147;
+   width: 100%;
+   justify-content: center;
 
 }
 .backgb{
@@ -72,16 +105,18 @@
    display: block;
     
 }
-   
+    
 .small{
-   font-size: 20px;
-   
+   font-size: 20px;   
 }
 .center{
-   text-align:end;
+   text-align:center;
 }
 .resize{
-   height: 50px;
+   height: 30px;
+   line-height: 0;
+   margin-top: 20px;
+   
 }
 .bold{
    text-align: center;
@@ -92,13 +127,14 @@
    text-align: center;
 }
 .overlay{
-   background-color: rgb(25, 3, 66);
-   min-height: 300px;
-   width: 250%;
-   margin: 0;
+   background-color:rgba(27, 11, 85, 0.973);
    color: #eee;
-   padding: 40px;
-   word-spacing: 1px;
+      
+}
+.res1{
+   font-size: 15px;
+   margin-top: 20px;
+     
 }
 
 
