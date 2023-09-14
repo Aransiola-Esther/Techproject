@@ -120,8 +120,8 @@
 }
 .bold{
    text-align: center;
-   font-size: 30px;
-   margin: 30px;
+   font-size: 80px;
+   font-weight: bold;
 }
 .form{
    text-align: center;
@@ -132,7 +132,7 @@
       
 }
 .res1{
-   font-size: 15px;
+   font-size: 18px;
    margin-top: 20px;
      
 }
